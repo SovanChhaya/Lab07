@@ -5,19 +5,19 @@ package edu.handong.csee.java.lab07.prob2;// package name of lab07 prob02
  * @author SovanEco(Chhaya)
  *
  */
-public class chicken {
+public class Chicken {
 	private String name;
 	private double price;
 	private int stars;
 
 	// chicken public method
-	public chicken() {
+	public Chicken() {
 		this.name = " ";
 		this.price = 0.0;
 		this.stars= 0;
 	}
 	// method and parameter variable 
-	public chicken(String name, double price ,int stars)
+	public Chicken(String name, double price ,int stars)
 	{
 		this.name = name;
 		this.price = price ;
@@ -25,34 +25,34 @@ public class chicken {
 	}
 
 	//get_name String method
-	public String get_name() {
+	public String getName() {
 
 		return this.name;
 	}
 
 	//get_price double method
-	public double get_price() {
+	public double getPrice() {
 		return this.price;
 
 	}
 	//get_stars int method
-	public int get_stars() {
+	public int getStars() {
 		return this.stars;
 	}
 	//set_name public void no return value and parameter variable as string
-	public void set_name(String name)
+	public void setName(String name)
 	{
 		this.name = name;
 	}
 
 	//set_name public void no return value and parameter variable as double
-	public void set_price(double price)
+	public void setPrice(double price)
 	{
 		this.price = price;
 	}
 
 	//set_name public void no return value and parameter variable as int
-	public void set_stars(int stars)
+	public void setStars(int stars)
 	{
 		this.stars= stars;
 	}
