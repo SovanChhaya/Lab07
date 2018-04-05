@@ -34,50 +34,50 @@ public class Attendance {
 
 
 	//getters
-	public String get_name() {
+	public String getName() {
 
 		return name;
 
 	}
 
 	//getters
-	public int get_year() {
+	public int getYear() {
 		return year;
 
 	}
 
 	//getters
-	public String get_id() {
+	public String getId() {
 		return Student_id;
 	}
 
 	//getters
-	public int get_missed () {
+	public int getMissed () {
 		return missed;
 
 	}
 
 	//Setters
 
-	public void set_name(String name) {
+	public void setName(String name) {
 
 		this.name = name;
 
 	}
 	//Setters
-	public void set_year(int year) {
+	public void setYear(int year) {
 		this.year = year;
 
 	}
 
 	//Setters
-	public void set_id(String Student_id) {
+	public void setId(String Student_id) {
 		this.Student_id= Student_id;
 
 
 	}
 	//Setters
-	public void set_missed(int missed) {
+	public void setMissed(int missed) {
 		this.missed= missed;
 	}
 
